@@ -3,36 +3,58 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="536.0">ru.stqa.pft.addressbook.tests.GroupDeletionTest</node>
-    <node x="93.5" y="0.0">ru.stqa.pft.addressbook.appmanager.ApplicationManager</node>
-    <node x="219.0" y="536.0">ru.stqa.pft.addressbook.tests.GroupCreationsTests</node>
-    <node x="110.5" y="389.0">ru.stqa.pft.addressbook.tests.TestBase</node>
+    <node x="245.625" y="382.0">ru.stqa.pft.addressbook.tests.GroupDeletionTest</node>
+    <node x="104.5" y="112.0">ru.stqa.pft.addressbook.appmanager.ApplicationManager</node>
+    <node x="68.625" y="382.0">ru.stqa.pft.addressbook.tests.GroupCreationsTests</node>
+    <node x="-226.0" y="-12.0">ru.stqa.pft.addressbook.appmanager.GroupHelper</node>
+    <node x="161.0" y="0.0">ru.stqa.pft.addressbook.appmanager.SessionHelper</node>
+    <node x="322.0" y="0.0">ru.stqa.pft.addressbook.appmanager.NavigationHelper</node>
+    <node x="132.5" y="280.0">ru.stqa.pft.addressbook.tests.TestBase</node>
   </nodes>
   <notes />
   <edges>
+    <edge source="ru.stqa.pft.addressbook.appmanager.ApplicationManager" target="ru.stqa.pft.addressbook.appmanager.SessionHelper">
+      <point x="-15.875" y="-59.0" />
+      <point x="215.625" y="92.0" />
+      <point x="196.25" y="92.0" />
+      <point x="-35.25" y="26.0" />
+    </edge>
     <edge source="ru.stqa.pft.addressbook.tests.TestBase" target="ru.stqa.pft.addressbook.appmanager.ApplicationManager">
-      <point x="49.5" y="-48.5" />
-      <point x="259.0" y="364.0" />
-      <point x="267.5" y="364.0" />
-      <point x="58.0" y="169.5" />
+      <point x="49.5" y="-26.0" />
+      <point x="281.0" y="255.0" />
+      <point x="295.0" y="255.0" />
+      <point x="63.5" y="59.0" />
     </edge>
     <edge source="ru.stqa.pft.addressbook.tests.GroupDeletionTest" target="ru.stqa.pft.addressbook.tests.TestBase">
-      <point x="-49.75" y="-26.0" />
-      <point x="49.75" y="511.0" />
-      <point x="135.25" y="511.0" />
-      <point x="-74.25" y="48.5" />
+      <point x="36.5" y="-15.0" />
+      <point x="355.125" y="357.0" />
+      <point x="305.75" y="357.0" />
+      <point x="74.25" y="26.0" />
+    </edge>
+    <edge source="ru.stqa.pft.addressbook.appmanager.ApplicationManager" target="ru.stqa.pft.addressbook.appmanager.NavigationHelper">
+      <point x="111.125" y="-59.0" />
+      <point x="342.625" y="92.0" />
+      <point x="439.5" y="92.0" />
+      <point x="47.0" y="26.0" />
     </edge>
     <edge source="ru.stqa.pft.addressbook.tests.GroupCreationsTests" target="ru.stqa.pft.addressbook.tests.TestBase">
-      <point x="-50.75" y="-26.0" />
-      <point x="269.75" y="511.0" />
-      <point x="234.25" y="511.0" />
-      <point x="24.75" y="48.5" />
+      <point x="39.25" y="-15.0" />
+      <point x="186.375" y="357.0" />
+      <point x="206.75" y="357.0" />
+      <point x="-24.75" y="26.0" />
+    </edge>
+    <edge source="ru.stqa.pft.addressbook.appmanager.ApplicationManager" target="ru.stqa.pft.addressbook.appmanager.GroupHelper">
+      <point x="-47.625" y="-59.0" />
+      <point x="183.875" y="72.0" />
+      <point x="117.5" y="72.0" />
+      <point x="47.0" y="26.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="128.5" y="263.5" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="1.0" x="231.5" y="206.0" />
+  <SelectedNodes>
+    <node>ru.stqa.pft.addressbook.appmanager.GroupHelper</node>
+  </SelectedNodes>
   <Categories>
-    <Category>Methods</Category>
     <Category>Fields</Category>
   </Categories>
   <SCOPE>All</SCOPE>
